@@ -1,0 +1,39 @@
+.text {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.text-label {
+  font-size: 18px;
+}
+.btn {
+  margin-top: 20px;
+  border: 2px solid rgb(32, 112, 32);
+  border-radius: 8px;
+  font-size: 16px;
+  color: rgb(32, 112, 32);
+  font-weight: 600;
+  background-color: transparent;
+  padding: 8px;
+  width: 120px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(32, 112, 32);
+  color: white;
+}
+.btn:focus {
+  outline: none;
+}
+
+.text-input:focus {
+  outline: none;
+}
